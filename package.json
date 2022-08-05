@@ -8,6 +8,6 @@
     "graphql-request": "^4.3.0"
   }, 
   "scripts": {
-    "start": "echo \"require('./main').run()\" > temp.js && node temp.js ; rm temp.js"
+    "start": "echo \"require('./src/main').run()\" > temp.js && node temp.js ; rm temp.js"
   }
 }
