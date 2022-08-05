@@ -1,7 +1,9 @@
 const { Executor } = require('./utils');
 
 
-module.exports.run = async () => {
+async function run() {
     const executor = new Executor();
     await executor.logAllQueryExecutions();
 }
+
+run()

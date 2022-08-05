@@ -2,7 +2,7 @@
 
 ### Install
 ```
-yarn i
+yarn install
 ```
 
 ### Run
